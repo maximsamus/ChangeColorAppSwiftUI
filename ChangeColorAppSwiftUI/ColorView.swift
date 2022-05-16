@@ -23,7 +23,7 @@ struct ColorView: View {
             .frame(width: 300, height: 200)
             .overlay(RoundedRectangle(cornerRadius: 20).stroke(
                 Color.white,
-                lineWidth: 8)
+                lineWidth: 5)
             )
             .padding(EdgeInsets(top: 20,
                                 leading: 16,
