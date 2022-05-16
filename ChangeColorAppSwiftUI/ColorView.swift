@@ -1,0 +1,40 @@
+//
+//  ColorView.swift
+//  ChangeColorAppSwiftUI
+//
+//  Created by Максим Самусь on 16.05.2022.
+//
+
+import SwiftUI
+
+struct ColorView: View {
+    
+    let red: Double
+    let green: Double
+    let blue: Double
+    
+    var body: some View {
+        RoundedRectangle(cornerRadius: 20)
+            .foregroundColor(Color(
+                red: red / 255,
+                green: green / 255,
+                blue: blue / 255)
+            )
+            .frame(width: 300, height: 200)
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(
+                Color.white,
+                lineWidth: 8)
+            )
+            .padding(EdgeInsets(top: 20,
+                                leading: 16,
+                                bottom: 20,
+                                trailing: 16)
+            )
+    }
+}
+
+struct ColorView_Previews: PreviewProvider {
+    static var previews: some View {
+        ColorView(red: 1, green: 1, blue: 1)
+    }
+}

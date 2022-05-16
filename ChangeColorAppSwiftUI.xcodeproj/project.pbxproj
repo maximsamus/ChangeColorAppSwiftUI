@@ -11,6 +11,7 @@
 		F7EFCCC328325ECA00CE92BA /* StartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EFCCC228325ECA00CE92BA /* StartContentView.swift */; };
 		F7EFCCC528325ECB00CE92BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EFCCC428325ECB00CE92BA /* Assets.xcassets */; };
 		F7EFCCC828325ECB00CE92BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EFCCC728325ECB00CE92BA /* Preview Assets.xcassets */; };
+		F7EFCCD12832D86300CE92BA /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EFCCD02832D86300CE92BA /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F7EFCCC228325ECA00CE92BA /* StartContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartContentView.swift; sourceTree = "<group>"; };
 		F7EFCCC428325ECB00CE92BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7EFCCC728325ECB00CE92BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7EFCCD02832D86300CE92BA /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F7EFCCC028325ECA00CE92BA /* ChangeColorAppSwiftUIApp.swift */,
 				F7EFCCC228325ECA00CE92BA /* StartContentView.swift */,
+				F7EFCCD02832D86300CE92BA /* ColorView.swift */,
 				F7EFCCC428325ECB00CE92BA /* Assets.xcassets */,
 				F7EFCCC628325ECB00CE92BA /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7EFCCD12832D86300CE92BA /* ColorView.swift in Sources */,
 				F7EFCCC328325ECA00CE92BA /* StartContentView.swift in Sources */,
 				F7EFCCC128325ECA00CE92BA /* ChangeColorAppSwiftUIApp.swift in Sources */,
 			);
