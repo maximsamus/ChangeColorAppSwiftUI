@@ -20,16 +20,12 @@ struct ColorView: View {
                 green: green / 255,
                 blue: blue / 255)
             )
-            .frame(width: 300, height: 200)
+            .frame(height: 200)
             .overlay(RoundedRectangle(cornerRadius: 20).stroke(
                 Color.white,
                 lineWidth: 5)
             )
-            .padding(EdgeInsets(top: 20,
-                                leading: 16,
-                                bottom: 20,
-                                trailing: 16)
-            )
+            .padding(.horizontal)
     }
 }
 
