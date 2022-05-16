@@ -11,7 +11,7 @@ import SwiftUI
 struct ChangeColorAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartContentView()
         }
     }
 }
