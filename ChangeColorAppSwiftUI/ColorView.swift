@@ -25,7 +25,7 @@ struct ColorView: View {
                 Color.white,
                 lineWidth: 5)
             )
-            .padding(.horizontal)
+            .padding(EdgeInsets(top: 20, leading: 16, bottom: 20, trailing: 16))
     }
 }
 

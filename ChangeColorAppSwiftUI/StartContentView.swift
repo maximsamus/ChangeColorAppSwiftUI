@@ -42,6 +42,11 @@ struct ColorSliderView: View {
             Text("\(lround(value))")
                 .foregroundColor(.white)
                 .font(.headline)
+                .frame(minWidth: 5,
+                       idealWidth: 15,
+                       maxWidth: 33,
+                       alignment: .leading
+                )
             Slider(value: $value, in: 0...255, step: 1)
                 .accentColor(color)
             TextField("", value: $value, formatter: NumberFormatter())
