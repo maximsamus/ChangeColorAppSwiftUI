@@ -11,7 +11,7 @@ struct StartContentView: View {
     @State private var redSliderValue = 38.0
     @State private var greenSliderValue = 99.0
     @State private var blueSliderValue = 222.0
-    
+
     var body: some View {
         ZStack {
             Color(.blue)
@@ -34,7 +34,6 @@ struct StartContentView: View {
 }
 
 struct ColorSliderView: View {
-    
     @Binding var value: Double
     let color: Color
     
@@ -50,6 +49,7 @@ struct ColorSliderView: View {
                 .multilineTextAlignment(.trailing)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .font(.headline)
+                .keyboardType(.decimalPad)
         }
         .padding(.horizontal)
     }
